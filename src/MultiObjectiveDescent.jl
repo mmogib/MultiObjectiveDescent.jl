@@ -14,10 +14,14 @@ include("subproblem.jl")
 # More-Thuente scalar line search
 include("morethuente.jl")
 
+# Vector Wolfe line search
+include("linesearch.jl")
+
 # Public API
 export MOProblem, SolverOptions, MOPResult, MOPState
 export evaluate_jacobian!
 export solve_steepest_descent, solve_subproblem!
 export mt_linesearch
+export vector_wolfe_linesearch
 
 end
