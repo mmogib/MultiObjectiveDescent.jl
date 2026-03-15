@@ -1,3 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 MultiObjectiveDescent = "63c349ac-f77f-487d-8a00-b5061c823716"
+
+[compat]
+Documenter = "1.17.0"
