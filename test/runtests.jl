@@ -2,5 +2,5 @@ using MultiObjectiveDescent
 using Test
 
 @testset "MultiObjectiveDescent.jl" begin
-    # Write your tests here.
+    include("test_types.jl")
 end
